@@ -38,7 +38,7 @@ jobs:
         certificate: '${{ secrets.CERTIFICATES }}'
         credentials: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
         key-uri: 'projects/fpi-codesign/locations/europe-west3/keyRings/code-signing/cryptoKeys/certificate/cryptoKeyVersions/1'
-        timestamp-url: 'http://timestamp.comodoca.com'
+        timestamp-url: 'http://timestamp.sectigo.com'
         description: 'Freenet Tray'
         description-url: 'https://freenetproject.org'
         folder: 'bin/Release'
